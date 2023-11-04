@@ -50,4 +50,5 @@ let mySprite2 = sprites.create(img`
     . . c b 5 5 5 5 5 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Enemy)
+controller.moveSprite(mySprite)
 mySprite2.setPosition(131, 93)
